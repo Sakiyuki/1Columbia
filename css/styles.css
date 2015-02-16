@@ -3,6 +3,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0 auto;
 }
+p {
+    font-style: italic;
+}
 a {
     text-decoration: none;
 
@@ -16,33 +19,116 @@ li {
     list-style-type: none;
     padding: 0;
 }
-header {
-    position:relative;
-
+img {
+    max-width: 100%;
 }
-
-.searchbutton {
-    background-color: #bd1217;
-    border: 1px;
-    /*height: 35px;*/
-    /*width:  50px;*/
-    border-radius: 5px;
-    position: absolute;
-    top: 60%;
-    right: 5%;
-    padding: 10px 50px;
-    font color: white;
-    float: right;
-    text-align: center;
-    color: white;
-    font-size: 1.4em;
+header {
+    /*width: 750px;*/
+}
+.mainwrapper {
+    padding-top: 12px;
+    position: relative;
+}
+.maincontent {
+    border-top: 40px solid #9e0b0f;
+}
+.header {
     
 
+}    
+.button {
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 1px;
+    color: white;
+    text-align: center;
+    font-size: 1.4em;
+
+    margin: 8px;
+}
+.searchbutton {
+    background-color: #f28f0e;
+    /*height: 35px;*/
+    /*width:  50px;*/
+    /*position: relative;*/
+    /*top: 60%;*/
+    /*right: 5%;*/
+    float: right;
+
 
 
 
 }
-.mainNav ul {
+.fbButton {
+    /*float: right;*/
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.nav {
+    padding-top: 5px 15px;
+    /*border-radius: 5px;*/
+    background-color: #060505;
+    clear: both;
+}
+.nav li {
+    border-bottom: 2px solid #fff;
+}
+.nav a {
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 8px;
+}
+.textsize {
+    font-size: 3em;
+}
+.musicgroup {
+    position: relative;
+}
+
+.musicgroup img {
+    position: relative;
+    
+}
+
+.stagegroup {
+    position: relative;
+}
+.stageButton{
+    background-color: #0d42da;
+    color: white;
+    padding: 4px;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.musicButton {
+    background-color: #f21a1a;
+    color: white;
+    /*z-index: 10;*/
+    padding: 4px;
+    position:absolute;
+    top: 0;
+    left: 0;
+
+    /*position: top;*/
+   /*position: left;*/
+    /*position: 0;*/
+}
+footer {
+    background-color: #060505; 
+    color: white;
+    /*padding: 10px;*/
+    text-align: center;
+
+}
+footer a {
+    color: white;
+}
+
+/*.mainNav ul {
         display: block;
         list-style: none;
         margin: 0;
@@ -69,7 +155,7 @@ header {
     color: white;
     padding: 15px 0;
     text-align: center;
-}
+}*/
 .clearfix {
     zoom:1;
 }
