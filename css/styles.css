@@ -65,7 +65,12 @@ header {
     position: absolute;
     bottom: 0;
     right: 0;
+    display: none;
 }
+@media screen and (min-width: 690px) {
+    .fbButton {
+    display: block;
+    }}
 .nav {
     padding-top: 5px 15px;
     /*border-radius: 5px;*/
@@ -127,7 +132,7 @@ footer {
 footer a {
     color: white;
 }
-
+@ media screen ()
 /*.mainNav ul {
         display: block;
         list-style: none;
@@ -171,5 +176,9 @@ footer a {
 
 
 
+@media screen and (min-width: 480px) {
+    .nav {
 
+    }
+}
 
