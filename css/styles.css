@@ -70,13 +70,16 @@ header {
 @media screen and (min-width: 690px) {
     .fbButton {
     display: block;
-    }}
+    }
+}
+
+
 .nav {
-    padding-top: 5px 15px;
-    /*border-radius: 5px;*/
+    /*padding: 5px 15px;*/
     background-color: #060505;
     clear: both;
 }
+
 .nav li {
     border-bottom: 2px solid #fff;
 }
@@ -86,6 +89,8 @@ header {
     display: block;
     padding: 8px;
 }
+
+
 .textsize {
     font-size: 3em;
 }
@@ -117,10 +122,33 @@ header {
     position:absolute;
     top: 0;
     left: 0;
-
     /*position: top;*/
    /*position: left;*/
     /*position: 0;*/
+}
+.familyandkids {
+    position: relative;
+
+}
+
+.familyButton {
+    background-color: #017337;
+    color: white;
+    padding: 4px;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.visualart {
+    position: relative;
+}
+.visualartsButton {
+       background-color: #2098c8;
+       color: white;
+       padding: 4px;
+       position:absolute;
+       top: 0;
+       left: 0;
 }
 footer {
     background-color: #060505; 
@@ -132,20 +160,67 @@ footer {
 footer a {
     color: white;
 }
-@ media screen ()
-/*.mainNav ul {
-        display: block;
-        list-style: none;
-        margin: 0;
-        padding: 20px 5px;
+
+
+.clearfix {
+    zoom:1;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+
+
+@media screen and (min-width: 700px){
+
+    .nav{
+        background-color: #ac0d10;
         text-align: center;
-        border-width: 2px;
-        border-style: solid;
-        border-color: transparent;
-        border-radius: 5px;
-        background: #bd1217;
-        
     }
+
+    .nav li {
+        border-bottom: none;
+        display: inline-block;
+    }
+
+    .nav a {
+        padding: 20px;
+        font-size: 1.2em;
+  
+    }
+
+    .maincontent {
+        border-top: none;
+    }
+    .searchbutton {
+    background-color: #f28f0e;
+    /*height: 35px;*/
+    /*width:  50px;*/
+    position: relative;
+    top: 60%;
+    right: 5%;
+    /*float: right;*/
+
+} /* END media querie 700px */
+
+
+/*.mainNav ul {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 20px 5px;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 5px;
+    background: #bd1217;
+    
+}
 .mainNav li {
         display: inline;
         color: white;
@@ -161,24 +236,4 @@ footer a {
     padding: 15px 0;
     text-align: center;
 }*/
-.clearfix {
-    zoom:1;
-}
-.clearfix:before, .clearfix:after {
-    content: "";
-    display: table;
-}
-.clearfix:after {
-    clear: both;
-}
-
-
-
-
-
-@media screen and (min-width: 480px) {
-    .nav {
-
-    }
-}
 
